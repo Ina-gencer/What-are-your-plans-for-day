@@ -1,0 +1,131 @@
+body {
+    background-image: url(flatlay-of-notebooks-and-a-laptop-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #FF9292;
+}
+
+h1 {
+    font-size: 70px;
+background: rgb(249,86,86);
+background: linear-gradient(90deg, rgba(249,86,86,1) 0%, rgba(122,64,112,1) 49%, rgba(4,111,152,1) 100%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: -1px -7px  #FFE699;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1:hover {
+    text-shadow: -1px -7px  #FF9292;
+
+}
+.inputText {
+    padding: 20px 45px;
+    width: 40%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    border-radius:50px 0px 0px 50px;
+    font-style: italic;
+    font-size: 30px;
+    color: #2a2a50;
+    background: #F3F1F5;
+}
+
+
+
+.btn {
+    padding: 20px 30px;
+    font-size: 30px;
+    background: #4C4C6D;
+    color: #FFE699;
+    border: none;
+    border-radius: 0px 50px 50px 0px ;
+}
+
+.top, .box, .footer {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+}
+
+
+
+h4 {
+    font-size: 28px;
+    color: #f377bf; 
+    text-shadow: 1px -1px  #FFE699; 
+    font-style: italic;
+}
+
+h4:hover {
+    color: #FDF5CA; 
+    text-shadow: -2px 2px  #2a2a2a; 
+
+}
+
+.newClass {
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #4C4C6D;
+    background: #FFE194; 
+    padding: 15px 10px;
+    width: 60%;
+    text-shadow: #030303 1px 1px ;
+    border-bottom: #5a5a7c 4px solid;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 5px;
+    font-style: italic;
+    overflow-wrap: break-word;
+}
+
+.newClass:hover {
+    background: #FF9292;
+}
+
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.lineThrough {
+    color: #FFE699;
+    background: #506D84;
+    text-decoration: line-through #d836a2;
+    transition:all 2s ease;
+    font-size: 20px;
+    border-bottom: #FFE699 4px solid;
+}
+.lineThrough:hover {
+    background: #506D84;
+}
+
+
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 20px;
+    }
+        
+   
+
+}
+
+
+@media all and (max-width: 500px) {
+    h1 (
+        font-size: 18px;
+    )
+  
+
+    h4 {
+        font-size: 18px
+    }
+
+    
+}
